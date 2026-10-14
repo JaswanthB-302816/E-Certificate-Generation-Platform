@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Certificate Platform</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- LOGIN PAGE -->
+
+    <div class="login-card" id="loginCard">
+
+        <h1>Certificate Platform</h1>
+
+        <h2>Login</h2>
+
+        <label>Email</label>
+        <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+        >
+
+        <label>Password</label>
+        <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+        >
+
+        <button id="loginButton">Login</button>
+
+    </div>
+
+
+    <!-- DASHBOARD -->
+
+    <div class="dashboard" id="dashboard">
+
+        <h1>Certificate Platform</h1>
+
+        <h2>Dashboard</h2>
+
+        <p>Welcome to your Certificate Platform.</p>
+
+        <button id="createCertificateButton">
+            Create Certificate
+        </button>
+
+        <button>
+            View Certificates
+        </button>
+
+        <button>
+            Verify Certificate
+        </button>
+
+    </div>
+
+
+    <!-- CREATE CERTIFICATE PAGE -->
+
+    <div class="certificate-form" id="certificateForm">
+
+        <h1>Create Certificate</h1>
+
+        <label>Student Name</label>
+
+        <input
+            type="text"
+            id="studentName"
+            placeholder="Enter student name"
+        >
+
+
+        <label>Register Number</label>
+
+        <input
+            type="text"
+            id="registerNumber"
+            placeholder="Enter register number"
+        >
+
+
+        <label>Course</label>
+
+        <input
+            type="text"
+            id="course"
+            placeholder="Enter course"
+        >
+
+
+        <label>Date</label>
+
+        <input
+            type="date"
+            id="certificateDate"
+        >
+
+
+        <button id="generateButton">
+            Create Certificate
+        </button>
+
+    </div>
+
+
+    <!-- CERTIFICATE PREVIEW -->
+
+    <div class="certificate" id="certificate">
+
+        <h1>Certificate</h1>
+
+        <p>This certificate is proudly presented to</p>
+
+        <h2 id="displayStudentName"></h2>
+
+        <p>Register Number:</p>
+
+        <h3 id="displayRegisterNumber"></h3>
+
+        <p>For successfully completing</p>
+
+        <h2 id="displayCourse"></h2>
+
+        <p>Date:</p>
+
+        <p id="displayDate"></p>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

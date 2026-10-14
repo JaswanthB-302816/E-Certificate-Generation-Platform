@@ -1,0 +1,151 @@
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    margin: 0;
+}
+
+
+/* LOGIN */
+
+.login-card {
+    background-color: white;
+
+    width: 350px;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.login-card h1,
+.login-card h2 {
+    text-align: center;
+}
+
+
+.login-card label,
+.certificate-form label {
+    display: block;
+
+    margin-top: 15px;
+
+    margin-bottom: 5px;
+}
+
+
+.login-card input,
+.certificate-form input {
+    width: 100%;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #cccccc;
+
+    border-radius: 5px;
+}
+
+
+.login-card button,
+.certificate-form button {
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 20px;
+
+    background-color: #333333;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+/* DASHBOARD */
+
+.dashboard {
+    display: none;
+
+    background-color: white;
+
+    width: 600px;
+
+    padding: 40px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+    text-align: center;
+}
+
+
+.dashboard button {
+    padding: 12px 20px;
+
+    margin: 10px;
+
+    cursor: pointer;
+}
+
+
+/* CREATE CERTIFICATE FORM */
+
+.certificate-form {
+    display: none;
+
+    background-color: white;
+
+    width: 400px;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* CERTIFICATE */
+
+.certificate {
+    display: none;
+
+    background-color: white;
+
+    width: 700px;
+
+    padding: 60px;
+
+    border: 10px solid #333333;
+
+    text-align: center;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.certificate h1 {
+    font-size: 40px;
+}
+
+
+.certificate h2 {
+    font-size: 30px;
+}
